@@ -1,5 +1,5 @@
 {
-  "name": "@lighthouse-web3/kavach",
+  "name": "lighthouse-encryption-sdk-browser",
   "version": "0.1.6",
   "description": "Encryption SDK: Build your trustless, decentralized and fault resistance Application using distributed key shades with threshold cryptography",
   "author": "xlassix",
@@ -90,4 +90,3 @@
     "Ravish Kumar Sharma (https://github.com/ravish1729)"
   ]
 }
-

@@ -1,9 +1,4 @@
-let bls: any = null;
-if (typeof window === "undefined") {
-  bls = eval("require")("bls-eth-wasm");
-} else {
-  bls = require("bls-eth-wasm/browser");
-}
+import bls from "bls-eth-wasm/browser";
 
 export const shardKey = async (key: string, threshold = 3, keyCount = 5) => {
   try {
